@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>EduSpace</title>
-
+    <title>EduSpace - School Management & Logistics Platform</title>
 
     <!--Links-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
-    <!-- Agregar metaetiquetas para SEO -->
-    <meta name="description" content="Logistic app for Schools"/>
-    <meta name="keywords" content="School logistic app"/>
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="EduSpace is a comprehensive school management and logistics platform. Optimize educational infrastructure, manage staff, and streamline operations."/>
+    <meta name="keywords" content="school management, educational logistics, facility management, staff coordination, education software, eduspace"/>
     <meta name="author" content="ProDevs"/>
-    <link rel="icon" type="assets/png" href="assets/logo.png">
+    <link rel="canonical" href="https://eduspace-landing.vercel.app/index.html" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://eduspace-landing.vercel.app/" />
+    <meta property="og:title" content="EduSpace - School Management & Logistics Platform" />
+    <meta property="og:description" content="Optimize your educational institution's management with EduSpace. Streamline operations, manage staff, and track resources." />
+    <meta property="og:image" content="https://eduspace-landing.vercel.app/assets/header.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://eduspace-landing.vercel.app/" />
+    <meta property="twitter:title" content="EduSpace - School Management & Logistics Platform" />
+    <meta property="twitter:description" content="Optimize your educational institution's management with EduSpace. Streamline operations, manage staff, and track resources." />
+    <meta property="twitter:image" content="https://eduspace-landing.vercel.app/assets/header.png" />
+
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
 <!--=============== NAV ===============-->
@@ -24,7 +42,7 @@
     <div class="nav__header">
         <div class="nav__logo">
             <a href="#" class="logo">
-                <img src="assets/logo.png" alt="logo"/>
+                <img src="assets/logo.png" alt="EduSpace Logo"/>
                 <span>EduSpace</span>
             </a>
         </div>
@@ -35,12 +53,14 @@
     <ul class="nav__links" id="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about-us">About us</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#tools">Tools</a></li>
         <li><a href="#package">Package</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
     <div class="nav__btns">
         <button class="btn language" onclick="window.location.href='index-es.html'">ES</button>
-        <button class="btn sign__up" onclick="window.location.href='https://eduspace-frontend-six.vercel.app/'">Start Now</button>
+        <button class="btn sign__up" onclick="window.open('https://eduspace-frontend-six.vercel.app/', '_blank')">Start Now</button>
     </div>
 </nav>
 <!----------------------->
@@ -48,14 +68,14 @@
 <!--=============== HOME ===============-->
 <div class="section__container header__container header" id="home">
     <div class="header__image">
-        <img src="assets/header.png" alt="header" />
+        <img src="assets/header.png" alt="Businessman smiling pointing at a laptop with futuristic graphics" />
     </div>
     <div class="header__content header__title">
         <h1>DEVELOP YOUR INSTITUTION </h1>
         <p class="section__description">Platform that simplifies the management of educational infrastructures.
         </p>
         <div class="header__btns">
-            <button class="btn" onclick="window.location.href='https://eduspace-frontend-six.vercel.app/'">Start Now</button>
+            <button class="btn" onclick="window.open('https://eduspace-frontend-six.vercel.app/', '_blank')">Start Now</button>
         </div>
     </div>
 </div>
@@ -69,7 +89,7 @@
         </p>
     </div>
     <div class="about__image">
-        <img src="assets/about.jpeg" alt="about">
+        <img src="assets/about.jpeg" alt="EduSpace Team Collaboration">
     </div>
 </section>
 
@@ -82,18 +102,18 @@
 
     <div class="row">
 
-        <div cla.,ss="column">
+        <div class="column">
             <div class="card">
                 <div class="img">
-                    <img src="assets/andres.jpeg" alt="foto_andres">
+                    <img src="assets/andres.jpeg" alt="Andres Torres - Developer">
                 </div>
                 <h3>Andres Torres</h3>
                 <p>Developer</p>
                 <div class="icons">
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-github"></i></a>
-                    <a href=""><i class="fas fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>
@@ -101,7 +121,7 @@
         <div class="column">
             <div class="card">
                 <div class="img">
-                    <img src="assets/Piero.jpg" alt="foto_Piero">
+                    <img src="assets/Piero.jpg" alt="Piero Velarde - Developer">
                 </div>
                 <h3>Piero Velarde</h3>
                 <p>Developer</p>
@@ -117,7 +137,7 @@
         <div class="column">
             <div class="card">
                 <div class="img">
-                    <img src="assets/Marllely.jpg" alt="foto_Marllely">
+                    <img src="assets/Marllely.jpg" alt="Marllely Arias - Developer">
                 </div>
                 <h3>Marllely Arias</h3>
                 <p>Developer</p>
@@ -133,7 +153,7 @@
         <div class="column">
             <div class="card">
                 <div class="img">
-                    <img src="assets/Luciana.jpg" alt="foto_Luciana">
+                    <img src="assets/Luciana.jpg" alt="Luciana Sanchez - Developer">
                 </div>
                 <h3>Luciana Sanchez</h3>
                 <p>Developer</p>
@@ -149,7 +169,7 @@
         <div class="column">
             <div class="card">
                 <div class="img">
-                    <img src="assets/Alejandro.jpg" alt="foto_yasser">
+                    <img src="assets/Alejandro.jpg" alt="Alejandro Mendoza - Developer">
                 </div>
                 <h3>Alejandro Mendoza</h3>
                 <p>Developer</p>
@@ -167,12 +187,12 @@
 <!----------------------->
 
 <!--=============== TOOLS ===============-->
-<section class="section__container experience__container">
+<section class="section__container experience__container" id="tools">
     <h2 class="section__header">Tools</h2>
     <div class="experience__content">
         <div class="experience__card card-1">
             <h4>Space Manager</h4>
-            <p> </p>
+
             <p>Tracks classrooms,sport facilities,and equipment,with easy assigment and reservation managment.</p>
         </div>
         <div class="experience__card card-2">
@@ -181,7 +201,7 @@
         </div>
         <div class="experience__card card-3">
             <h4>Staff Coordinator</h4>
-            <p> </p>
+
             <p>Centralizes staff management and reassigns duties automatically in case of absences.</p>
         </div>
     </div>
@@ -197,7 +217,7 @@
         availability and occupancy, and monitor student movements in real time. By centralizing these functions, the Admin Dashboard enhances administrative ability to
         optimize decision-making and resource allocation.
     </p>
-    <img src="assets/d-admin.jpg" class="mi-imagen" alt="Admin Dashboard">
+    <img src="assets/d-admin.jpg" class="mi-imagen" alt="EduSpace Admin Dashboard Interface">
 </div>
 <!----------------------->
 
@@ -207,7 +227,7 @@
     <p class="dashboard-description">
         Designed for teachers and staff, the Education Dashboard streamlines day-to-day operations by offering tools to manage schedules, reserve classrooms or shared spaces, and track the condition of equipment. Users receive instant notifications about changes in classroom assignments, maintenance updates, or other relevant events.
     </p>
-    <img src="assets/d-edu.jpg" class="mi-imagen" alt="Education Dashboard">
+    <img src="assets/d-edu.jpg" class="mi-imagen" alt="EduSpace Education Dashboard Interface">
 </div>
 <!----------------------->
 
@@ -316,7 +336,7 @@
                         <img src="assets/client-4.jpg" alt="client" />
                         <div>
                             <h4>David Patel</h4>
-                            <h5>Eduactional</h5>
+                            <h5>Educational</h5>
                         </div>
                     </div>
                 </div>
@@ -479,6 +499,7 @@
                         <label for="title">Title</label>
                         <input type="text" id="title" name="title" placeholder="Enter Title" required>
                         <button class="btn button-contact-us" type="submit">Submit</button>
+                        <p id="form-message" style="display:none; color: green; margin-top:10px;">Message sent successfully!</p>
                     </div>
                 </div>
             </div>
@@ -519,6 +540,11 @@
         </div>
     </footer>
 </footer>
+
+<!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">
+    <i class="ri-arrow-up-line"></i>
+</button>
 
 <script src="https://unpkg.com/scrollreveal"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
