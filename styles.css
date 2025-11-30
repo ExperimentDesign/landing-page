@@ -377,6 +377,8 @@ header::before {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
   border-radius: 5rem;
 }
 
@@ -1384,4 +1386,38 @@ button:hover {
 
 #backToTop i {
   pointer-events: none;
+}
+
+/* --- Estilos para el Libro de Reclamaciones --- */
+.libro-reclamaciones-container {
+    margin-top: 20px;
+}
+
+.libro-reclamaciones-container img {
+    width: 150px;  /* Tamaño estándar, puedes ajustarlo */
+    height: auto;
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    background-color: white; /* Fondo blanco por si la imagen es transparente */
+    padding: 5px;
+    transition: transform 0.3s ease;
+    border: 1px solid #ccc;
+}
+
+.libro-reclamaciones-container img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* --- Estilos para el botón secundario (Beta) --- */
+.btn__secondary {
+  background-color: var(--white);
+  color: var(--primary-color-dark);
+  border: 2px solid var(--primary-color-dark);
+}
+
+.btn__secondary:hover {
+  background-color: var(--primary-color-dark);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(68, 199, 192, 0.3);
 }
